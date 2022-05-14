@@ -5,12 +5,39 @@
     <link>https://example.com/tag/gamedev/</link>
       <atom:link href="https://example.com/tag/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <description>GameDev</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>GameDev</title>
       <link>https://example.com/tag/gamedev/</link>
     </image>
+    
+    <item>
+      <title>Пост по прошлой неделе</title>
+      <link>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-2/</guid>
+      <description>&lt;h2 id=&#34;что-такое-wm&#34;&gt;Что такое WM?&lt;/h2&gt;
+&lt;p&gt;World Machine помогает создавать реалистичные 3D-рельефы. Мощная и гибкая программа World Machine сочетает процедурное создание рельефа, моделирование природы и интерактивное редактирование для быстрого и простого создания реалистичного рельефа. Вы можете создавать и экспортировать поля высот, текстуры и сетки высокого разрешения для игр или программ рендеринга.&lt;/p&gt;
+&lt;h2 id=&#34;почему-именно-wm&#34;&gt;Почему именно WM?&lt;/h2&gt;
+&lt;p&gt;Несмотря на то что игровой движок, который я использую, имеет встроенные средства для создания и редактирования ландшафта, они подразумевают использование вручную, что неэффективно в контексте создания цельного игрового мира, имеющего размеры порядка 60 квадратных километров. Так же имеются программы аналогичные данной, но WM является наиболее узнаваемой, в силу чего для нее легче найти инструкции по использованию.&lt;/p&gt;
+&lt;h2 id=&#34;как-это-устроено&#34;&gt;Как это устроено?&lt;/h2&gt;
+&lt;p&gt;В отличие от традиционных редакторов рельефа на основе кистей, World Machine использует процедурный подход. Формируйте рельеф, используя основные строительные блоки, такие как фракталы, затем дополните их симуляцией природы, чтобы создать реалистичные черты.
+Просто соедините вместе блоки действий, чтобы создать свой мир.
+Вот великолепный пейзаж, созданный менее чем за две минуты.&lt;/p&gt;
+&lt;h2 id=&#34;итоги-работы&#34;&gt;Итоги работы&lt;/h2&gt;
+&lt;p&gt;За прошлую неделю я изучил основные возможности программы World Machine, в том числе:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Использование нод шума для создания основы ландшафта&lt;/li&gt;
+&lt;li&gt;Использование инструмента Layout Generator&lt;/li&gt;
+&lt;li&gt;Использование инструментов: эррозия, кривые, комбинирование, фильтры.&lt;/li&gt;
+&lt;li&gt;Экспорт карт высот и текстур в заданном разрешении&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2022-present &lt;a href=&#34;https://4ebupelinka.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Борис Тараканов&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Пост по прошлой неделе</title>

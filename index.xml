@@ -34,6 +34,90 @@
     
     <item>
       <title>Пост по прошлой неделе</title>
+      <link>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-2/</link>
+      <pubDate>Sat, 14 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-2/</guid>
+      <description>&lt;h2 id=&#34;что-такое-wm&#34;&gt;Что такое WM?&lt;/h2&gt;
+&lt;p&gt;World Machine помогает создавать реалистичные 3D-рельефы. Мощная и гибкая программа World Machine сочетает процедурное создание рельефа, моделирование природы и интерактивное редактирование для быстрого и простого создания реалистичного рельефа. Вы можете создавать и экспортировать поля высот, текстуры и сетки высокого разрешения для игр или программ рендеринга.&lt;/p&gt;
+&lt;h2 id=&#34;почему-именно-wm&#34;&gt;Почему именно WM?&lt;/h2&gt;
+&lt;p&gt;Несмотря на то что игровой движок, который я использую, имеет встроенные средства для создания и редактирования ландшафта, они подразумевают использование вручную, что неэффективно в контексте создания цельного игрового мира, имеющего размеры порядка 60 квадратных километров. Так же имеются программы аналогичные данной, но WM является наиболее узнаваемой, в силу чего для нее легче найти инструкции по использованию.&lt;/p&gt;
+&lt;h2 id=&#34;как-это-устроено&#34;&gt;Как это устроено?&lt;/h2&gt;
+&lt;p&gt;В отличие от традиционных редакторов рельефа на основе кистей, World Machine использует процедурный подход. Формируйте рельеф, используя основные строительные блоки, такие как фракталы, затем дополните их симуляцией природы, чтобы создать реалистичные черты.
+Просто соедините вместе блоки действий, чтобы создать свой мир.
+Вот великолепный пейзаж, созданный менее чем за две минуты.&lt;/p&gt;
+&lt;h2 id=&#34;итоги-работы&#34;&gt;Итоги работы&lt;/h2&gt;
+&lt;p&gt;За прошлую неделю я изучил основные возможности программы World Machine, в том числе:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Использование нод шума для создания основы ландшафта&lt;/li&gt;
+&lt;li&gt;Использование инструмента Layout Generator&lt;/li&gt;
+&lt;li&gt;Использование инструментов: эррозия, кривые, комбинирование, фильтры.&lt;/li&gt;
+&lt;li&gt;Экспорт карт высот и текстур в заданном разрешении&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2022-present &lt;a href=&#34;https://4ebupelinka.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Борис Тараканов&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Fri, 13 May 2022 00:01:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;история&#34;&gt;История&lt;/h2&gt;
+&lt;p&gt;Первоначально создан в 2004 году Джоном Грубером и Аароном Шварцем. Многие идеи языка были позаимствованы из существующих соглашений по разметке текста в электронных письмах. Реализации языка Markdown преобразуют текст в формате Markdown в валидный, правильно построенный XHTML и заменяют левые угловые скобки («&amp;lt;») и амперсанды («&amp;amp;») на соответствующие коды сущностей. Первой реализацией Markdown стала написанная Грубером реализация на Perl, однако спустя некоторое время появилось множество реализаций от сторонних разработчиков (см. ниже). Реализация на Perl распространяется по лицензии типа BSD. Реализации Markdown на различных языках программирования включены (или доступны в качестве плагина) во многие системы управления содержимым.&lt;/p&gt;
+&lt;h2 id=&#34;реализации-markdown&#34;&gt;Реализации Markdown&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;ColdFusion&lt;/li&gt;
+&lt;li&gt;Common Lisp&lt;/li&gt;
+&lt;li&gt;Go&lt;/li&gt;
+&lt;li&gt;Haskell&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;JavaScript&lt;/li&gt;
+&lt;li&gt;Kotlin&lt;/li&gt;
+&lt;li&gt;Lua&lt;/li&gt;
+&lt;li&gt;newLISP&lt;/li&gt;
+&lt;li&gt;Perl&lt;/li&gt;
+&lt;li&gt;PHP&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Ruby&lt;/li&gt;
+&lt;li&gt;Scala&lt;/li&gt;
+&lt;li&gt;Tcl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;расширения&#34;&gt;Расширения&lt;/h2&gt;
+&lt;p&gt;Приведённые ниже приложения реализуют Markdown, расширяя его синтаксис дополнительной функциональностью:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MultiMarkdown (C)&lt;/li&gt;
+&lt;li&gt;Text::MultiMarkdown (Perl) модуль, реализующий расширение MultiMarkdown&lt;/li&gt;
+&lt;li&gt;PHP Markdown Extra&lt;/li&gt;
+&lt;li&gt;python-markdown2 (Поддерживает некоторые расширения PHP Markdown)&lt;/li&gt;
+&lt;li&gt;python-markdown (Имеет систему расширений для добавления нового синтаксиса)&lt;/li&gt;
+&lt;li&gt;Markout (Java)&lt;/li&gt;
+&lt;li&gt;Pegdown (Java)&lt;/li&gt;
+&lt;li&gt;Maruku (Ruby)&lt;/li&gt;
+&lt;li&gt;Pandoc (Haskell)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;поддержка-текстовыми-редакторами&#34;&gt;Поддержка текстовыми редакторами:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Универсальные редакторы: TextMate, BBEdit (с версии 8.6), Vim (с помощью специального пользовательского режима, написанного Беном Вильямсом), Emacs(с помощью специального пользовательского режима, написанного Джейсоном Блевинсом), TextWrangler, Smultron, Sublime Text, Geany, Atom, Visual Studio Code.&lt;/li&gt;
+&lt;li&gt;Редакторы для блогов: Ecto, MarsEdit&lt;/li&gt;
+&lt;li&gt;Плагины для редактора среды Eclipse от ThinkTank Mathematics&lt;/li&gt;
+&lt;li&gt;Плагины для текстового редактора gedit&lt;/li&gt;
+&lt;li&gt;Текстовый редактор iA Writer в версии для Mac OS и Android&lt;/li&gt;
+&lt;li&gt;Текстовый редактор ReText для GNU/Linux&lt;/li&gt;
+&lt;li&gt;WYSIWYM-редактор Texts для Windows/Mac OS&lt;/li&gt;
+&lt;li&gt;WYSIWYM-редактор Typora для Windows, GNU/Linux и Mac OS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2022-present &lt;a href=&#34;https://4ebupelinka.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Борис Тараканов&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Пост по прошлой неделе</title>
       <link>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-1/</link>
       <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-1/</guid>
