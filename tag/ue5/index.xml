@@ -5,12 +5,62 @@
     <link>https://example.com/tag/ue5/</link>
       <atom:link href="https://example.com/tag/ue5/index.xml" rel="self" type="application/rss+xml" />
     <description>UE5</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>UE5</title>
       <link>https://example.com/tag/ue5/</link>
     </image>
+    
+    <item>
+      <title>Пост по прошлой неделе</title>
+      <link>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-3/</link>
+      <pubDate>Thu, 19 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/%D0%BF%D0%BE%D1%81%D1%82-%D0%BF%D0%BE-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5-3/</guid>
+      <description>&lt;h2 id=&#34;о-виджетах&#34;&gt;О виджетах:&lt;/h2&gt;
+&lt;p&gt;Виджет (widget) — это элемент UI, предоставляющий UI визуальные функции. Например, виджет Button предоставляет объект, который пользователь может видеть и нажимать на него.
+Сам виджет необязательно должен быть видимым. Например, виджет Grid Panel равномерно разделяет своё пространство между его содержимым. Пользователь не может увидеть Grid Panel, но видит его воздействие.
+Можно даже создать виджет, являющийся целым интерфейсом, например, экраном меню. Ниже представлен пример виджета, созданного так, чтобы он выглядел как начальный экран игры. Все элементы UI тоже являются виджетами и содержатся внутри виджета начального экрана.&lt;/p&gt;
+&lt;h2 id=&#34;создание-виджета&#34;&gt;Создание виджета:&lt;/h2&gt;
+&lt;p&gt;Перейдем в Content Browser и найдем папку UI. Нажмем на кнопку Add New и выберем User Interface\Widget Blueprint. Переименуем новый ассет в WBP_HUD.&lt;/p&gt;
+&lt;h2 id=&#34;umg-ui-designer&#34;&gt;UMG UI Designer:&lt;/h2&gt;
+&lt;p&gt;UMG UI Designer состоит из семи основных элементов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designer: в этой области представлено визуальное отображение виджета. Перемещаться по ней можно зажав правую клавишу мыши и двигая мышью. Масштабирование выполняется прокруткой колёсика мыши.&lt;/li&gt;
+&lt;li&gt;Details: здесь отображаются свойства выбранного виджета&lt;/li&gt;
+&lt;li&gt;Palette: список всех виджетов, которые можно использовать. Все созданные пользователем виджеты тоже появляются здесь.&lt;/li&gt;
+&lt;li&gt;Hierarchy: список всех уже используемых виджетов&lt;/li&gt;
+&lt;li&gt;Animations: некоторые свойства виджетов могут иметь анимацию, например, расположение и размер. В этой панели перечислены все анимации.&lt;/li&gt;
+&lt;li&gt;Timeline: при выборе анимации на этой панели показываются анимированные свойства и ключевые кадры&lt;/li&gt;
+&lt;li&gt;Editor Mode: здесь можно переключаться между режимами Designer и Graph. Режим Graph почти аналогичен Event Graph у Blueprint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;привязки&#34;&gt;Привязки:&lt;/h2&gt;
+&lt;p&gt;Точка привязки задаёт место, относительно которого определяется положение виджета. По умолчанию виджеты привязаны к верхнему левому углу своего родительского элемента. Поэтому когда мы задаём положение виджета, мы на самом деле указывает положение относительно этой точки привязки.
+Заметьте, что каждое изображение сохраняет положение относительно своей привязки. Благодаря привязкам UI будет иметь одинаковое расположение при разных размерах экрана.
+Также можно использовать привязки для автоматического изменения размера виджетов. В случае привязки к двум или более точкам виджет будет менять свой размер для сохранения относительного размера.&lt;/p&gt;
+&lt;h2 id=&#34;отображение-hud&#34;&gt;Отображение HUD:&lt;/h2&gt;
+&lt;p&gt;Нажмем на Compile, а затем вернемся в основной редактор. Перейдем в папку Blueprints и дважды щёлкнем на BP_GameManager, чтобы открыть его.
+HUD должен становиться видимым после запуска игры. Для этого можно использовать нод Event BeginPlay.
+Найдем нод Event BeginPlay и добавим нод Create Widget в конец цепочки нодов. Этот нод создаёт экземпляр указанного виджета.
+Нажмем на раскрывающийся список рядом с Class и выберем WBP_HUD.&lt;/p&gt;
+&lt;p&gt;Давайте разберёмся с порядком событий:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Когда Unreal спаунит BP_GameManager, выполняются функции Restart и SetUpCamera. Эти функции настраивают несколько переменных и камеру. Если вы не знаете, что такое функция, то не волнуйтесь, скоро мы их рассмотрим.&lt;/li&gt;
+&lt;li&gt;Нод Create Widget создаёт экземпляр WBP_HUD&lt;/li&gt;
+&lt;li&gt;Нод Add to Viewport отображает WBP_HUD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;итоги-работы&#34;&gt;Итоги работы&lt;/h2&gt;
+&lt;p&gt;По итогам работы я научился следующему:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Создавать HUD-дисплей, на котором отображается счётчик и таймер&lt;/li&gt;
+&lt;li&gt;Отображать HUD на экране&lt;/li&gt;
+&lt;li&gt;Обновлять счётчик и таймер, чтобы отображать значения переменных&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2022-present &lt;a href=&#34;https://4ebupelinka.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Борис Тараканов&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Пост по прошлой неделе</title>
